@@ -5,7 +5,7 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
-//----Uri    ------  params----- --query filter
+//----Url    ------  params----- --query filter
 //locahost:3000/[something else]?filter=ids
 
 app.get("/:name", (req, res) => {
